@@ -37,8 +37,6 @@ main,footer{position:relative;z-index:1}
 .smk i:nth-child(2){width:60vw;height:40vw;left:30vw;bottom:-14vw;animation-duration:30s;animation-delay:-8s;background:radial-gradient(closest-side,#8CFF0026,transparent)}
 .smk i:nth-child(3){width:50vw;height:36vw;right:-10vw;top:-6vw;animation-duration:26s;animation-delay:-14s}
 @keyframes sm{0%{transform:translate(0,0) scale(1)}100%{transform:translate(8vw,-4vw) scale(1.25)}}
-.stk{display:inline-flex;align-items:center;gap:10px;background:var(--ne);color:#050507;font:600 16px Inter,sans-serif;padding:8px 18px 8px 10px;rotate:-2.5deg;margin:0 0 28px;box-shadow:0 0 24px #8CFF0040}
-.stk b{width:22px;height:22px;border-radius:50%;background:#050507;color:var(--ne);display:grid;place-items:center;font-size:13px}
 .facts{position:absolute;left:0;bottom:0;width:50%;z-index:3;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #8CFF0033;background:linear-gradient(0deg,#050507cc,transparent);padding-left:max(32px,calc((100vw - 1440px)/2 + 32px))}
 .facts div{padding:18px 16px 24px 0;border-right:1px solid var(--ln);margin-right:16px}.facts div:last-child{border:0}
 .facts strong{display:block;font:400 28px Horovod,Georgia,serif;color:var(--nl);font-weight:400}.facts span{font-size:13px;color:var(--mu);line-height:1.3;display:block}
@@ -111,7 +109,7 @@ footer .lk{background:none;border:0;color:var(--mu);font:inherit;cursor:pointer;
 @media(max-width:900px){
  body{font-size:18px}section{padding:72px 0}h2{font-size:40px;margin-bottom:32px}
  nav{padding-left:16px;padding-right:16px}nav .nm{font-size:20px}nav .btn{padding:0 12px;font-size:13px}
- .hero .tx{width:100%;max-width:none;padding:110px 20px 120px}.facts{width:100%;padding-left:16px}.facts strong{font-size:20px}.facts span{font-size:11px}.facts div{padding:12px 8px 16px 0;margin-right:8px}.big{font-size:36vw;top:36%;-webkit-text-stroke:1px #8CFF0026}.stk{font-size:14px}.hero h1{font-size:44px}.hero .sub{font-size:22px}
+ .hero .tx{width:100%;max-width:none;padding:110px 20px 120px}.facts{width:100%;padding-left:16px}.facts strong{font-size:20px}.facts span{font-size:11px}.facts div{padding:12px 8px 16px 0;margin-right:8px}.big{font-size:36vw;top:36%;-webkit-text-stroke:1px #8CFF0026}.hero h1{font-size:44px}.hero .sub{font-size:22px}
  .hp{display:none}.dr{left:auto;right:3%;top:8%;width:94vw;height:auto;opacity:.3}
  .pg{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}
  .two{grid-template-columns:1fr;gap:16px}.bl{aspect-ratio:4/5}.tb{padding:28px;font-size:18px}
@@ -130,7 +128,7 @@ footer .lk{background:none;border:0;color:var(--mu);font:inherit;cursor:pointer;
 <nav><button class="bg" id="bg" aria-label="Меню" aria-expanded="false">☰</button><a class="nm" href="#top">Viper Tattoo</a><a class="btn" href="#form"><span class="lg">Записаться на сеанс</span><span class="sm">Записаться</span></a></nav>
 <div class="mn" id="mn"><a href="#portfolio">Портфолио</a><a href="#about">О мастере</a><a href="#styles">Стили</a><a href="#reviews">Отзывы</a><a class="btn" href="#form">Записаться на сеанс</a></div>
 <main id="top">
-<section class="hero"><div class="spot" aria-hidden="true"></div><div class="big" aria-hidden="true">VIPER</div><div class="smk" aria-hidden="true"><i></i><i></i><i></i></div><div class="dr" aria-hidden="true"></div><div class="tx"><span class="stk fu"><b>✓</b>Студия работает с 2020 г</span><br><h1 class="sp">Тату-студия VIPER TATTOO</h1><p class="sub fu">Татуировки, сделанные профессионалом</p><a class="btn fu" href="#form">Записаться на сеанс</a></div><div class="hp"><img data-img="hero" data-alt="Мастер за работой"></div><div class="facts fu"><div><strong>2020</strong><span>работаем с этого года</span></div><div><strong>Одноразовые</strong><span>стерильные иглы и картриджи</span></div><div><strong>12–19</strong><span>ежедневно</span></div></div></section>
+<section class="hero"><div class="spot" aria-hidden="true"></div><div class="big" aria-hidden="true">VIPER</div><div class="smk" aria-hidden="true"><i></i><i></i><i></i></div><div class="dr" aria-hidden="true"></div><div class="tx"><h1 class="sp">Тату-студия VIPER TATTOO</h1><p class="sub fu">Татуировки, сделанные профессионалом</p><a class="btn fu" href="#form">Записаться на сеанс</a></div><div class="hp"><img data-img="hero" data-alt="Мастер за работой"></div><div class="facts fu"><div><strong>2020</strong><span>работаем с этого года</span></div><div><strong>Одноразовые</strong><span>стерильные иглы и картриджи</span></div><div><strong>12–19</strong><span>ежедневно</span></div></div></section>
 <section id="portfolio"><div class="wrap"><h2 class="sp">Портфолио</h2><div class="pg" id="pg"></div><div class="ex" id="ex"></div><div class="mr"><button class="btn g" id="more" aria-expanded="false" aria-controls="ex">Показать все</button></div></div></section>
 <section id="about"><div class="wrap"><div class="two"><div class="bl rv"><img data-img="master" data-alt="Мастер Роберт"></div><div class="tb rv"><h3>О мастере</h3><p>Привет! Меня зовут Роберт. Работаю в сфере тату с 2020 года. Приходя ко мне, вы получаете отличный сервис и гарантированно отличный результат. Я работаю только исправными инструментами, которые проходят дезинфекцию перед каждым клиентом. Всех жду!</p></div></div></div></section>
 <section id="phil"><div class="wrap"><h2 class="sp">Философия</h2>
@@ -237,32 +235,65 @@ addEventListener('load',()=>setTimeout(()=>$$('#ex img').forEach(i=>{i.loading='
  const pts=new THREE.Points(G,new THREE.PointsMaterial({size:.5,map:tex(1),vertexColors:true,transparent:true,opacity:.75,depthWrite:false,blending:THREE.AdditiveBlending,sizeAttenuation:true}));S.add(pts);
  const nb=tex(.55);if(!LOW)[[-14,6,-30],[16,-8,-60],[-10,-6,-95],[12,8,-125]].forEach((p,i)=>{const s=new THREE.Sprite(new THREE.SpriteMaterial({map:nb,color:i%2?0x2a8f10:0x0f5a2a,transparent:true,opacity:.28,depthWrite:false,blending:THREE.AdditiveBlending}));s.position.set(...p);s.scale.set(46,46,1);S.add(s)});
 
- /* живая змея: цепочка сфер ползёт по синусоидальной траектории, прикреплена к камере */
+ /* живая змея v2: тело-трубка с шейдером чешуи и зигзагом гадюки, голова с глазами, язык, реалистичная походка */
  const SG=new THREE.Group();SG.position.z=-14;C.add(SG);
  let KS=1,CX=0,CY=0,AX=5,AY=4;
  const fit=()=>{const asp=innerWidth/innerHeight,hh=Math.tan(31*Math.PI/180)*14,hw=hh*asp;
   if(asp>1.1){const W=hw,H=hh*1.1;KS=Math.min(W/14,H/9);CX=-hw*.5;CY=-hh*.05;AX=W*.3;AY=H*.36}
   else{const W=hw*2,H=hh*1.1;KS=Math.min(W/14,H/9);CX=0;CY=hh*.42;AX=W*.3;AY=H*.26}};
- const SN=LOW?46:70,DS=.075,sg=new THREE.SphereGeometry(1,LOW?8:10,LOW?6:8);
- const fill=new THREE.InstancedMesh(sg,new THREE.MeshBasicMaterial({color:0xffffff,transparent:true}),SN);
- const wire=new THREE.InstancedMesh(sg,new THREE.MeshBasicMaterial({color:0x8CFF00,wireframe:true,transparent:true,opacity:.5}),SN);
- for(let i=0;i<SN;i++)fill.setColorAt(i,new THREE.Color(i%4<2?0x06120a:0x0c2410));
- SG.add(fill,wire);
- const eg=new THREE.SphereGeometry(1,8,6),em=new THREE.MeshBasicMaterial({color:0xE8FF9A}),eL=new THREE.Mesh(eg,em),eR=new THREE.Mesh(eg,em);SG.add(eL,eR);
- const tg=new THREE.LineSegments(new THREE.BufferGeometry().setAttribute('position',new THREE.BufferAttribute(new Float32Array([0,0,0,1,0,0,1,0,0,1.6,.35,0,1,0,0,1.6,-.35,0]),3)),new THREE.LineBasicMaterial({color:0xB8FF4D}));SG.add(tg);
- const Pt=u=>[CX+AX*Math.sin(.5*u)+AX*.25*Math.sin(1.3*u+1),CY+AY*Math.sin(.77*u+.6)],D=new THREE.Object3D();
+ const NS=LOW?64:110,NR=LOW?8:14,LEN0=15,sst=(a,b,x)=>{x=Math.min(1,Math.max(0,(x-a)/(b-a)));return x*x*(3-2*x)};
+ const VS='varying vec2 vUv;varying vec3 vN,vV;void main(){vUv=uv;vN=normalize(normalMatrix*normal);vec4 mv=modelViewMatrix*vec4(position,1.);vV=-mv.xyz;gl_Position=projectionMatrix*mv;}';
+ const FS='precision highp float;uniform float uO,uT,uH;varying vec2 vUv;varying vec3 vN,vV;void main(){float L=vUv.x,a=vUv.y,da=min(a,1.-a);'+
+  'vec2 g=uH>.5?vec2(vUv.x*44.,vUv.y*22.):vec2(L*130.,a*14.);g.x+=floor(g.y)*.5;vec2 f=fract(g)-.5;float d=abs(f.x)+abs(f.y);float ed=smoothstep(.36,.5,d);'+
+  'vec3 col=mix(vec3(.025,.075,.03),vec3(.07,.24,.06),1.-ed);col+=vec3(.5,1.,0.)*ed*.28;'+
+  'if(uH<.5){float zz=abs(fract(L*17.)-.5)*2.;float w=.045+.075*zz;float st=1.-smoothstep(w-.012,w+.012,da);col=mix(col,vec3(.55,1.,0.)*(.5+.5*(1.-ed)),st);'+
+  'float sp=smoothstep(.30,.36,da);col=mix(col,vec3(.3,.55,.22)*(.55+.45*step(.5,fract(L*62.))),sp);col+=vec3(.5,1.,0.)*.1*pow(.5+.5*sin(L*36.-uT*2.4),6.);}'+
+  'vec3 N=normalize(vN),V=normalize(vV);float dl=max(dot(N,normalize(vec3(.35,.55,.75))),0.);float fr=pow(1.-max(dot(N,V),0.),2.6);'+
+  'col*=.4+.85*dl;col+=vec3(.5,1.,.1)*fr*.6;gl_FragColor=vec4(col,uO);}';
+ const mk2=h=>new THREE.ShaderMaterial({vertexShader:VS,fragmentShader:FS,uniforms:{uO:{value:1},uT:{value:0},uH:{value:h}},transparent:true,side:THREE.DoubleSide});
+ const mB=mk2(0),mH=mk2(1);
+ /* тело */
+ const bpos=new Float32Array(NS*(NR+1)*3),bnor=new Float32Array(NS*(NR+1)*3),buv=new Float32Array(NS*(NR+1)*2),bidx=[];
+ for(let i=0;i<NS;i++)for(let j=0;j<=NR;j++){const k=(i*(NR+1)+j)*2;buv[k]=i/(NS-1);buv[k+1]=j/NR}
+ for(let i=0;i<NS-1;i++)for(let j=0;j<NR;j++){const a=i*(NR+1)+j,b=a+NR+1;bidx.push(a,b,a+1,b,b+1,a+1)}
+ const bg=new THREE.BufferGeometry();bg.setIndex(bidx);
+ bg.setAttribute('position',new THREE.BufferAttribute(bpos,3).setUsage(THREE.DynamicDrawUsage));bg.setAttribute('normal',new THREE.BufferAttribute(bnor,3).setUsage(THREE.DynamicDrawUsage));bg.setAttribute('uv',new THREE.BufferAttribute(buv,2));
+ const body=new THREE.Mesh(bg,mB);body.frustumCulled=false;SG.add(body);
+ /* голова: сплюснутый треугольный эллипсоид */
+ const hgeo=new THREE.SphereGeometry(1,LOW?14:22,LOW?10:16),hps=hgeo.attributes.position;
+ for(let i=0;i<hps.count;i++){const x=hps.getX(i),y=hps.getY(i),z=hps.getZ(i),k=(x+1)/2;hps.setXYZ(i,x*1.55,y*(1-.56*k),z*(.55-.12*k))}
+ hgeo.computeVertexNormals();
+ const HG=new THREE.Group();HG.rotation.order='ZYX';SG.add(HG);HG.add(new THREE.Mesh(hgeo,mH));
+ const eg=new THREE.SphereGeometry(1,10,8),eM=new THREE.MeshBasicMaterial({color:0xE8FF9A,transparent:true}),pM=new THREE.MeshBasicMaterial({color:0x000000,transparent:true}),bx=new THREE.BoxGeometry(1,1,1);
+ [1,-1].forEach(s=>{const e=new THREE.Mesh(eg,eM);e.position.set(.5,.55*s,.34);e.scale.setScalar(.17);HG.add(e);const p=new THREE.Mesh(bx,pM);p.position.set(.5,.55*s,.5);p.scale.set(.13,.03,.03);HG.add(p)});
+ /* язык */
+ const cg=new THREE.CylinderGeometry(.035,.02,1,5);cg.translate(0,.5,0);cg.rotateZ(-Math.PI/2);
+ const tM=new THREE.MeshBasicMaterial({color:0xB8FF4D,transparent:true}),TG=new THREE.Group();TG.position.set(1.5,0,0);HG.add(TG);
+ const st=new THREE.Mesh(cg,tM);st.scale.set(.7,1,1);TG.add(st);
+ const pr=[1,-1].map(s=>{const m=new THREE.Mesh(cg,tM);m.position.set(.7,0,0);m.rotation.z=.5*s;m.scale.set(.45,1,1);TG.add(m);return m});
+ /* путь и позвоночник змеи */
+ const Pt=u=>[CX+AX*Math.sin(.5*u)+AX*.25*Math.sin(1.3*u+1),CY+AY*Math.sin(.77*u+.6)],sp=[];for(let i=0;i<NS;i++)sp.push([0,0]);
+ let tau=0,lastT=0;
+ const spine=seg=>{let tt=tau,prev=Pt(tt),acc=0,i=1,g=0;sp[0]=prev;while(i<NS&&g<9000){tt-=.004;const p=Pt(tt);acc+=Math.hypot(p[0]-prev[0],p[1]-prev[1]);prev=p;g++;if(acc>=seg){sp[i++]=p;acc=0}}while(i<NS)sp[i++]=prev};
  const snk=t=>{const op=1-Math.min(1,scrollY/(innerHeight*.9));SG.visible=op>.02;if(!SG.visible)return;
-  fill.material.opacity=op;wire.material.opacity=.5*op;const u=t*.9;let hx=0,hy=0,ha=0,hr=1;
-  for(let i=0;i<SN;i++){const tt=u-i*DS,p=Pt(tt),q=Pt(tt+.02);let tx=q[0]-p[0],ty=q[1]-p[1];const l=Math.hypot(tx,ty)||1;tx/=l;ty/=l;
-   const tp=1-i/SN,rip=KS*.32*Math.sin(i*.5-t*3.2)*Math.min(1,i/4)*tp,x=p[0]-ty*rip,y=p[1]+tx*rip;
-   const R0=KS*(i===0?.62:i<3?.5:.46*Math.pow(tp,.55)+.06);
-   D.position.set(x,y,0);D.rotation.z=Math.atan2(ty,tx);D.scale.set(i===0?R0*1.5:R0,R0,R0);D.updateMatrix();fill.setMatrixAt(i,D.matrix);wire.setMatrixAt(i,D.matrix);
-   if(i===0){hx=x;hy=y;ha=D.rotation.z;hr=R0}}
-  fill.instanceMatrix.needsUpdate=true;wire.instanceMatrix.needsUpdate=true;
-  const c=Math.cos(ha),s=Math.sin(ha),er=hr*.14;
-  eL.position.set(hx+c*hr*.9-s*hr*.55,hy+s*hr*.9+c*hr*.55,hr*.85);eR.position.set(hx+c*hr*.9+s*hr*.55,hy+s*hr*.9-c*hr*.55,hr*.85);eL.scale.setScalar(er);eR.scale.setScalar(er);
-  const fl=Math.pow(Math.max(0,Math.sin(t*2.3)),3);tg.position.set(hx+c*hr*1.5,hy+s*hr*1.5,0);tg.rotation.z=ha;tg.scale.set(hr*(.2+1.3*fl),hr*1.2,1)};
+  const dt=Math.min(.05,Math.max(0,t-lastT));lastT=t;
+  const spd=.3+.95*Math.pow(.5+.5*Math.sin(t*.31),2),slow=1-spd/1.25;   /* замедления и рывки */
+  tau+=dt*spd*.9;const seg=LEN0*KS/(NS-1),Rm=.5*KS,zh=.25*KS*slow,amp=.2*KS*(.4+.6*spd/1.25);
+  spine(seg);mB.uniforms.uO.value=mH.uniforms.uO.value=op;mB.uniforms.uT.value=t;
+  eM.opacity=pM.opacity=tM.opacity=op;
+  let hx=0,hy=0,hz=0,hang=0;
+  for(let i=0;i<NS;i++){const a=sp[Math.max(i-1,0)],b=sp[Math.min(i+1,NS-1)];let tx=a[0]-b[0],ty=a[1]-b[1];const l=Math.hypot(tx,ty)||1;tx/=l;ty/=l;
+   const n0=-ty,n1=tx,s=i/(NS-1),rip=Math.sin(i*.33-t*(3+2*spd))*amp*Math.min(1,i/8)*(1-s*.3);
+   const cx=sp[i][0]+n0*rip,cy=sp[i][1]+n1*rip,cz=zh-i*seg*.06,r=Rm*(.52+.48*sst(0,.2,s))*(1-.94*Math.pow(sst(.5,1,s),1.3));
+   if(i===0){hx=cx;hy=cy;hz=cz;hang=Math.atan2(ty,tx)}
+   for(let j=0;j<=NR;j++){const ph=j/NR*6.2831853,sn=Math.sin(ph),cs=Math.cos(ph),k=(i*(NR+1)+j)*3;
+    bnor[k]=sn*n0;bnor[k+1]=sn*n1;bnor[k+2]=cs;bpos[k]=cx+r*sn*n0;bpos[k+1]=cy+r*sn*n1;bpos[k+2]=cz+r*cs*.85}}
+  bg.attributes.position.needsUpdate=true;bg.attributes.normal.needsUpdate=true;
+  const yaw=hang+.22*Math.sin(t*1.3)*slow,fw=Rm*.35;
+  HG.position.set(hx+Math.cos(hang)*fw,hy+Math.sin(hang)*fw,hz+.02*KS);HG.rotation.set(0,-slow*.55,yaw);HG.scale.setScalar(Rm*1.15);
+  const fl=Math.pow(Math.max(0,Math.sin(t*(1.6+2.2*slow)+1)),4);TG.scale.set(.05+fl*1.1,1,1);TG.rotation.z=.3*Math.sin(t*30)*fl;pr.forEach((m,q)=>{m.rotation.z=(q?-1:1)*(.5+.25*Math.sin(t*34)*fl)})};
  document.documentElement.classList.add('gl3');
+
  let mx=0,my=0;addEventListener('mousemove',e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5});
  const rs=()=>{R.setSize(innerWidth,innerHeight,false);C.aspect=innerWidth/innerHeight;C.updateProjectionMatrix();fit()};rs();addEventListener('resize',rs);
  let z=0,last=0;const t0=performance.now();(function f(){requestAnimationFrame(f);if(document.hidden||performance.now()<(window.PA||0)||(LOW&&performance.now()-last<33))return;last=performance.now();
